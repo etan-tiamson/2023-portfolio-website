@@ -49,15 +49,15 @@ body {
 #introduction {
   justify-content: right;
   display: flex;
-  text-align: right;
+  text-align: left;
   padding: 50px;
   border: #000000;
   border-width: 10px;
   width: 255px;
   height: 424px;
   position: absolute;
-  margin-left: 50%;
-  top: 20%;
+  margin-left: 40%;
+  top: 17%;
 }
 
 #box1 {
@@ -70,6 +70,15 @@ body {
   text-align: center;
   text-align: right;
   position: relative;
+}
+
+#me {
+  display: flex;
+  position: absolute;
+  height: 340px;
+  width: 451px;
+  margin-right: 20%;
+  margin-top: 7%;
 }
 
 #box2 {
@@ -93,6 +102,32 @@ body {
   width: 255px;
   height: 424px;
   position: absolute;
+}
+
+#textbox2-5 {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  padding: 50px;
+  border: #000000;
+  border-width: 10px;
+  width: 255px;
+  height: 424px;
+  position: absolute;
+  margin-top: 20%;
+}
+
+#paragraph2 {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  padding: 50px;
+  border: #000000;
+  border-width: 10px;
+  width: 255px;
+  height: 424px;
+  position: absolute;
+  margin-top: 30%;
 }
 
 #box3 {
@@ -157,7 +192,7 @@ p {
 
   .footer {
       
-   position: absolute; 
+  position: absolute; 
   bottom: -0px;
   width: 98%;
   height: 200px;
