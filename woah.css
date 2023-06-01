@@ -89,19 +89,36 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
+}
 
+#textbox2-1 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: auto;
+  position: absolute;
+  margin-top: 15%;
+}
+
+#textbox2-2 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: auto;
+  position: absolute;
+  margin-top: 5%;
 }
 
 #textbox2 {
   justify-content: center;
   display: flex;
   text-align: center;
-  padding: 50px;
   border: #000000;
   border-width: 10px;
   width: 255px;
   height: 424px;
   position: absolute;
+  margin-top: 10%;
 }
 
 #textbox2-5 {
@@ -130,13 +147,40 @@ body {
   margin-top: 30%;
 }
 
+#magazine {
+  display: flex;
+  position: absolute;
+  height: 200px;
+  width: 300px;
+  margin-right: 60%;
+  margin-top: 25%;
+}
+
+#cab {
+  display: flex;
+  position: absolute;
+  height: 150px;
+  width: 200px;
+  margin-right: 50%;
+  margin-top: 5%;
+}
+
+#me2 {
+  display: flex;
+  position: absolute;
+  height: 300px;
+  width: 350px;
+  margin-left: 80%;
+  margin-top: 10%;
+}
+
 #box3 {
   width: auto;
   height: 540px;
   background-color: #ffffff;
   padding: 10px;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   text-align: left;
   position: relative;
   font-size: medium;
@@ -153,6 +197,78 @@ body {
   height: 424px;
   position: absolute;
 }
+
+#expierences {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  width: 255px;
+  height: 424px;
+  position: absolute;
+}
+
+#summer {
+  justify-content: left;
+  display: flex;
+  text-align: left;
+  width: 255px;
+  height: 424px;
+  position: absolute;
+  margin-top: 6%;
+  margin-right: 43%;
+}
+
+#makergym {
+  justify-content: left;
+  display: flex;
+  text-align: left;
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  margin-top: 8%;
+  margin-right: 40%;
+}
+
+#fall {
+  justify-content: left;
+  display: flex;
+  text-align: left;
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  margin-top: 30%;
+  margin-right: 15%;
+}
+
+#showstoppers {
+  justify-content: left;
+  display: flex;
+  text-align: left;
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  margin-top: 32%;
+  margin-right: 13%;
+}
+
+#makerethan {
+  display: flex;
+  position: absolute;
+  height: 150px;
+  width: 200px;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+#showstopperspic {
+  display: flex;
+  position: absolute;
+  height: 150px;
+  width: 200px;
+  margin-left: 45%;
+  margin-top: 33%;
+}
+
 
 #box4 {
   /* width: max-content; 
@@ -187,7 +303,7 @@ body {
 }
 
 p {
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
   .footer {
@@ -200,3 +316,4 @@ p {
   text-align: left;
   padding: 10px;
   }
+
